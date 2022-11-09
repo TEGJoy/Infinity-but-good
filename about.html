@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>The Phoenix - About</title>
+</head>
+<body>
+    <script>
+        function changeImage() {
+    console.log("change");
+    if (document.getElementById("Canna").src == "img/Canna Disguised.png"){
+        document.getElementById("Canna").src = "img/Canna Non-Disguised.png";
+    } 
+    if (document.getElementById("Kikaru").src == "../Infinity/img/Kikaru Disguised.png"){
+        document.getElementById("Kikaru").src = "../Infinity/img/Kikaru non-disguised.png";
+    } else {
+        document.getElementById("Kikaru").src = "../Infinity/img/Kikaru Disguised.png";
+    }
+    if (document.getElementById("David").src == "../Infinity/img/David disguised.png"){
+        document.getElementById("David").src = "../Infinity/img/David non-disguised.png";
+    } else {
+        document.getElementById("David").src = "../Infinity/img/David Disguised.png";
+    }
+    if (document.getElementById("Kaey").src == "../Infinity/img/Kaey Disguised.png"){
+        document.getElementById("Kaey").src = "../Infinity/img/Kaey non-disguised.png";
+    } else {
+        document.getElementById("Kaey").src = "../Infinity/img/Kaey Disguised.png";
+    }
+    if (document.getElementById("Aurelia").src == "../Infinity/img/Aurelia Disguised.png"){
+        document.getElementById("Aurelia").src = "../Infinity/img/Aurelia non-Disguised.png";
+    } else {
+        document.getElementById("Aurelia").src = "../Infinity/img/Aurelia Disguised.png";
+    }
+}
+function myFunction() {
+  document.getElementById("Kikaru").src = "img/Kikaru non-disguised.png";
+  document.getElementById("David").src = "img/David non-disguised.png";
+  document.getElementById("Kaey").src = "img/Kaey non-disguised.png";
+  document.getElementById("Aurelia").src = "img/Aurelia non-Disguised.png";
+  document.getElementById("Canna").src = "img/Canna Non-Disguised.png";
+  document.getElementById("K-name").innerHTML = 'Kikaru Aikawa';
+  document.getElementById("K-sub").innerHTML = 'The fantastic leader';
+  document.getElementById("K-role").innerHTML = 'The leader of the phoenix';
+  document.getElementById("D-name").innerHTML = 'David Bruin';
+  document.getElementById("D-sub").innerHTML = 'The chaotic dual wielder';
+  document.getElementById("D-role").innerHTML = 'First member of the phoenix';
+  document.getElementById("Y-name").innerHTML = 'Kaey Yung';
+  document.getElementById("Y-sub").innerHTML = 'The intimidating Giant';
+  document.getElementById("Y-role").innerHTML = 'Second member of the phoenix';
+  document.getElementById("C-name").innerHTML = 'Canna Camelia';
+  document.getElementById("C-sub").innerHTML = 'The monster of flowers';
+  document.getElementById("C-role").innerHTML = 'Third member of the phoenix';
+  document.getElementById("A-name").innerHTML = 'Aurelia Ayasato';
+  document.getElementById("A-sub").innerHTML = 'The explosive ballerina';
+  document.getElementById("A-role").innerHTML = 'Final member of the phoenix';
+}
+    </script>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item">
+            <img src="img/kersenbloem.png" width="45" height="28" onclick="myFunction()">
+          </a>
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item" href="index.html">
+                Home
+            </a>
+            <a class="navbar-item" href="about.html">
+                About
+            </a>
+            <a class="navbar-item" href="tours.html">
+                Tours
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                More
+              </a>
+              <div class="navbar-dropdown">
+                <a class="navbar-item" href="faq.html">
+                  FAQ
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <section class="section">
+        <div class="columns is-mobile">
+            <div class="column">
+                <div class="box">
+                  <p class="title is-5" id="K-name">Blue Melody</p>
+                  <p class="subtitle" id="K-sub">The genius pianist</p>
+                </div>
+              </div>
+                <div class="column">
+                    <div class="box">
+                        <h2 class="subtitle" id="K-role">
+                        The band's vocalist and pianist.
+                        </h2>
+                    </div>
+                </div>               
+                <div class="column is-2"> 
+                <div class="box">
+                    <figure class="image is-600x600">
+                        <img src="img/Kikaru Disguised.png" id="Kikaru">
+                      </figure>
+                </div>
+            </div>
+              </div>
+      </section>
+      <section class="section">
+        <div class="columns is-mobile">
+            <div class="column">
+                <div class="box">
+                    <h1 class="title" id="D-name">Yellow Chaos</h1>
+                  <p class="subtitle" id="D-sub">The chaotic guitarist</p>
+                </div>
+              </div>
+                <div class="column">
+                    <div class="box">
+                        <h2 class="subtitle" id="D-role">
+                            The band's guitarist.
+                          </h2>
+                    </div>
+                </div>               
+                <div class="column is-2"> 
+                <div class="box">
+                    <figure class="image is-600x600">
+                        <img src="img/David disguised.png" id="David">
+                      </figure>
+                </div>
+            </div>
+              </div>
+      </section>
+      <section class="section">
+        <div class="columns is-mobile">
+            <div class="column">
+            <div class="box">
+                <h1 class="title" id="Y-name">White Dragon</h1>
+                <p class="subtitle" id="Y-sub">The giant taiko player</p>
+            </div>
+          </div>
+            <div class="column">
+                <div class="box">
+                    <h2 class="subtitle" id="Y-role">
+                        The band's taiko player.
+                      </h2>
+                </div>
+            </div>               
+        <div class="column is-2"> 
+            <div class="box">
+                <figure class="image is-600x600">
+                    <img src="img/Kaey Disguised.png" id="Kaey">
+                  </figure>
+            </div>
+        </div>
+          </div>
+      </section>
+      <section class="section">
+        <div class="columns is-mobile">
+            <div class="column">
+                <div class="box">
+                    <h1 class="title" id="C-name">Pink Flower</h1>
+                  <p class="subtitle" id="C-sub">The beautiful bassist</p>
+                </div>
+              </div>
+                <div class="column">
+                    <div class="box">
+                        <h2 class="subtitle" id="C-role">
+                            The band's bassist and backup vocalist
+                          </h2>
+                    </div>
+                </div>               
+                <div class="column is-2"> 
+                <div class="box">
+                    <figure class="image is-600x600">
+                        <img src="img/Canna Disguised.png" id="Canna">
+                      </figure>
+                </div>
+            </div>
+              </div>
+      </section>
+      <section class="section">
+        <div class="columns is-mobile">
+            <div class="column">
+                <div class="box">
+                    <h1 class="title" id="A-name">Red Grace</h1>
+                  <p class="subtitle" id="A-sub">The enigmatic shamisen player</p>
+                </div>
+              </div>
+                <div class="column">
+                    <div class="box">
+                        <h2 class="subtitle" id="A-role">
+                            The band's shamisen player and head dancer
+                          </h2>
+                    </div>
+                </div>               
+                <div class="column is-2"> 
+                <div class="box">
+                    <figure class="image is-600x600">
+                        <img src="img/Aurelia Disguised.png" id="Aurelia">
+                      </figure>
+                </div>
+            </div>
+              </div>
+      </section>
+</body>
+</html>
